@@ -25,8 +25,7 @@ const config = {
   },
   // set the file extensions we want webpack to resolve
   resolve: {
-    extensions: ['.js', '.jsx'],
-    modules: [path.join(__dirname, 'node_modules')],
+    extensions: ['.js', '.jsx']
   }
 };
 
